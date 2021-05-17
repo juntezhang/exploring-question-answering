@@ -41,7 +41,7 @@ The _**retriever**_ is responsible for generating a set of candidate passages. S
 
 ![](images/dense_parse_embeddings.jpg)
 
-The similarity between a query and a passage can be defined as the dot product of their vectors. But the question and answer may not in words, which is called the _vocabulary mismatch problem_. [For example](https://0x65.dev/blog/2019-12-07/indexing-billions-of-text-vectors.html),
+The similarity between a query and a passage can be defined as the dot product of their vectors. But the question and answer may not have the same words, which is called the _vocabulary mismatch problem_. [For example](https://0x65.dev/blog/2019-12-07/indexing-billions-of-text-vectors.html),
 * the queries _opening a restaurant in munich_ and _best restaurant of munich_ are similar because they share the words _restaurant_ and _munich_,
 
 * whereas _best restaurant of munich_ and _where to eat in munich_ are less similar because they only share a single word.
